@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         EditText et1 = findViewById(R.id.et1);
         String pesosString = et1.getText().toString();
         double pesos = Double.parseDouble(pesosString);
-        double dolares = pesos / 3772;
+        double dolares = pesos / 3773;
         String dolaresString = String.format("%.2f",dolares);
         String mensaje = "COP " + pesosString + " son USD " + dolaresString;
         Toast.makeText(this, mensaje, Toast.LENGTH_LONG).show();
